@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Red Hat Text", sans-serif;
+}
+
+h1 {
+  color: #260f08;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+h3 {
+  color: #260f08;
+  font-weight: 600;
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+}
+main {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+}
+article {
+  padding: 15px;
+}
+.desc {
+  color: #87635a;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.price {
+  color: #c73b0f;
+  font-weight: 600;
+}
+h2 {
+  color: #c73b0f;
+  font-weight: 700;
+}
+.added-items {
+  color: #87635a;
+  font-weight: 600;
+}
+@media screen and (min-width: 375px) {
+  main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 728px) {
+  main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
